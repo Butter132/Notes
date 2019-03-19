@@ -5,6 +5,30 @@
 
 import static java.lang.System.*;
 
+
+class Static
+{
+  public static void main ( String[] args )
+  {
+     System.out.println("\nMonster count == " + Monster.getCount() + "\n\n");
+
+     Ghost casper = new Ghost("Casper");
+     out.println(casper);
+     out.println("Monster count == " + casper.getCount() + "\n");
+
+     Witch witch= new Witch("Harriet");
+     out.println(witch);
+     out.println("Monster count == " + witch.getCount() + "\n");
+
+     Ghost gone = new Ghost();
+     Ghost gtwo = new Ghost();
+     Ghost gthree = new Ghost();
+     Witch west = new Witch("Wicked Witch Of the West");
+     out.println(west);
+     out.println("Monster count == " + west.getCount() + "\n");
+  }
+}
+
 class Monster
 {
    private String myName;
@@ -51,27 +75,4 @@ class Ghost extends Monster
    {
       super(name);
    }
-}
-
-class Static
-{
-  public static void main ( String[] args )
-  {
-     System.out.println("\nMonster count == " + Monster.getCount() + "\n\n");
-
-     Ghost casper = new Ghost("Casper");
-     out.println(casper);
-     out.println("Monster count == " + casper.getCount() + "\n");
-
-     Witch witch= new Witch("Harriet");
-     out.println(witch);
-     out.println("Monster count == " + witch.getCount() + "\n");
-
-     Ghost gone = new Ghost();
-     Ghost gtwo = new Ghost();
-     Ghost gthree = new Ghost();
-     Witch west = new Witch("Wicked Witch Of the West");
-     out.println(west);
-     out.println("Monster count == " + west.getCount() + "\n");
-  }
 }
