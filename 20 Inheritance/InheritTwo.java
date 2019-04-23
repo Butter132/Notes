@@ -5,7 +5,10 @@
 
 import static java.lang.System.*;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
 public class InheritTwo
 {
   public static void main ( String[] args )
@@ -19,6 +22,9 @@ public class InheritTwo
      Sasquatch sas = new Sasquatch("Sassy");
      out.println(sas);
      //instantiate Sasquatch
+     Sasquatch billy = new Sasquatch();
+     System.out.println(billy.getHasFluffy());
+     System.out.println(billy);
      
      
   }
@@ -53,6 +59,7 @@ class Witch extends Monster
 }
 
 //make a new type of Monster - Sasquatch 
+<<<<<<< HEAD
 class Sasquatch extends Monster
 {
  // private String myName;
@@ -60,6 +67,19 @@ class Sasquatch extends Monster
  {
   super(name);
  }
+=======
+
+class Sasquatch extends Monster{
+     private boolean hasFluffy;
+     
+     public Sasquatch(){
+          hasFluffy = true;
+     }
+     
+     public boolean getHasFluffy(){
+          return hasFluffy;
+     }
+>>>>>>> upstream/master
 }
 
 

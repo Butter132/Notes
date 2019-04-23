@@ -66,13 +66,18 @@ class Ghost extends Monster
       super(name);
    }
 
-   /*
+   
    //java:57: overRide() in Ghost cannot override overRide() in Monster;
-   public int overRide( )
+   public void overRide( )
    {
       System.out.println("overRide in Ghost");
+<<<<<<< HEAD
       return 0;  ///attempting to use incompatible return type
    }*/
+=======
+      //return 0;  ///attempting to use incompatible return type
+   }
+>>>>>>> upstream/master
 
 
    public String toString()

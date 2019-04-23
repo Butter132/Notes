@@ -5,6 +5,10 @@
 
 import static java.lang.System.*;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
 public class CompOne
 {
  public static void main ( String[] args )

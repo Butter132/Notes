@@ -3,7 +3,10 @@
 
 import static java.lang.System.*;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
 public class InheritOne
 {
   public static void main ( String[] args )
@@ -19,6 +22,7 @@ public class InheritOne
   
   out.println(two);    
   two.setX(24);
+<<<<<<< HEAD
   out.println(two.getX());  
   
   System.out.println(one.equals(two)); 
@@ -26,6 +30,17 @@ public class InheritOne
   }
 }
   
+=======
+  out.println(two.getX()); 
+  
+  A three = new A();
+  three = one;
+  System.out.println( one.equals(three) );
+  
+  }
+}
+
+>>>>>>> upstream/master
 class A
 {
    private int x;
@@ -54,3 +69,7 @@ class B extends A
 {
    //no visible code
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master

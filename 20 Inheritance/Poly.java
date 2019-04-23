@@ -20,7 +20,11 @@ public class Poly
 
     x=new Ghost("Chucky");
     out.println(x);
+<<<<<<< HEAD
     //x.whoot();  //what is the problem?
+=======
+   ((Ghost)x).whoot();  //what is the problem?
+>>>>>>> upstream/master
    }
 }
 

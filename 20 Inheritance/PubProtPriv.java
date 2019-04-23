@@ -5,7 +5,10 @@
 
 import static java.lang.System.*;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
 class PubProtPriv
 {
  public static void main ( String[] args )
@@ -31,7 +34,11 @@ class Monster
 
  public Monster(String name)
  {
+<<<<<<< HEAD
   this("noname",45);
+=======
+  this(name,45);
+>>>>>>> upstream/master
  }
 
  public Monster(String name, int age)
@@ -55,7 +62,12 @@ class Witch extends Monster
 
  public Witch( String name, int age )
  {
+<<<<<<< HEAD
   super(name,age);
+=======
+  //what code should be here
+    super(name, age);
+>>>>>>> upstream/master
  }
 
  public void showPrivate()
@@ -63,7 +75,11 @@ class Witch extends Monster
   out.println("\n\nshowPrivate() - accessing myName");
     
   //uncomment the following line
+<<<<<<< HEAD
   //System.out.println(myName);   //name has private access in Monster
+=======
+  System.out.println(myName);   //name has private access in Monster
+>>>>>>> upstream/master
  }
 
  public void showProtected()
@@ -74,3 +90,7 @@ class Witch extends Monster
  }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
